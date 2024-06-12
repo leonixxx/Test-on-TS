@@ -1,0 +1,17 @@
+p,
+h1,
+h2,
+h3 {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	padding: 0;
+}

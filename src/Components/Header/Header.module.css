@@ -1,0 +1,14 @@
+.header {
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	display: flex;
+	gap: 40px;
+	color: rgb(88, 86, 86);
+}
+.link:hover {
+	color: #1e50cf;
+}
+.link2 {
+	color: #1e50cf;
+}

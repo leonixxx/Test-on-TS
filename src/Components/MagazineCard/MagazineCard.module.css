@@ -1,0 +1,104 @@
+.wrap {
+	width: 260px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	padding: 20px;
+	margin: auto;
+}
+.iphone__block {
+	background-image: url('../../../public/image/iphone.png');
+	background-size: cover;
+	width: 260px;
+	height: 260px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.iphone__inner {
+	display: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	border-radius: 20px;
+}
+.iphone__block:hover > .iphone__inner {
+	display: block;
+	cursor: pointer;
+}
+.wrap__price {
+	display: flex;
+	font-size: 20px;
+	gap: 15px;
+}
+.with__rice {
+	font-weight: 800;
+}
+.before__price {
+	color: gray;
+	text-decoration: line-through;
+}
+.priceMir {
+	color: purple;
+	font-size: 17px;
+	font-weight: bold;
+}
+.technical_parameters {
+	font-size: 15px;
+	color: gray;
+}
+.credit {
+	text-transform: uppercase;
+	width: 70%;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	font-weight: bold;
+	background-image: linear-gradient(
+		to right,
+		rgb(34, 244, 142),
+		rgb(183, 206, 119)
+	);
+	border-radius: 20px;
+}
+.credit:hover {
+	background-image: linear-gradient(
+		to right,
+		rgb(14, 215, 118),
+		rgb(159, 188, 82)
+	);
+}
+.basket {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.basket__btn {
+	padding: 10px 25px;
+	background-color: rgb(221, 29, 221);
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.basket__btn:hover {
+	background-color: rgb(160, 42, 160);
+}
+.basket__img {
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+}
+
+.badge {
+	position: relative;
+	left: 30px;
+	top: -15px;
+}
+.rating {
+	cursor: pointer;
+}
+.contentBlock {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
